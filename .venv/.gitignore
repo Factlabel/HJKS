@@ -1,3 +1,4 @@
 # created by virtualenv automatically
-*.json
-
+hjks_data/
+outages_data.json
+path.json
