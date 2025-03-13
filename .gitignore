@@ -84,3 +84,4 @@ docker-compose.override.yaml
 *.crt
 *.p12
 *.pfx
+/.venv/
