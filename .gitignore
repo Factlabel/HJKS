@@ -1,0 +1,86 @@
+# 仮想環境関連
+venv/
+env/
+.venv/
+.pyenv/
+virtualenv/
+.virtualenv/
+
+# Pythonキャッシュ
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebookキャッシュ
+.ipynb_checkpoints
+
+# Pythonの配布パッケージ
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# pipキャッシュ
+pip-wheel-metadata/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 環境変数ファイル
+.env
+.env.*
+.venvrc
+
+# pytestキャッシュ
+.pytest_cache/
+
+# coverage.py関連
+.coverage
+htmlcov/
+.coverage.*
+
+# mypyキャッシュ
+.mypy_cache/
+
+# IDE・エディタ設定
+.vscode/
+.idea/
+*.swp
+*~
+
+# MacOSシステムファイル
+.DS_Store
+
+# Windowsシステムファイル
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ログファイル
+*.log
+
+# SQLiteデータベース（必要に応じて追加）
+*.sqlite3
+
+# コンパイル済みC拡張モジュール
+*.so
+
+# Docker関連（必要に応じて）
+docker-compose.override.yml
+docker-compose.override.yaml
+
+# 秘密鍵、パスワードなどの秘密情報ファイル
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
